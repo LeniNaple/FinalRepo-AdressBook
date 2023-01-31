@@ -9,6 +9,7 @@ public class MainMenu
     private FileService fileService = new FileService();
     public string Path { get; set; } = null!;
     public void WelcomeMenu()
+
     {
         PopulateContacts();
 
