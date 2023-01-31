@@ -16,7 +16,7 @@ internal interface IContact
     string Number { get; set; }
 }
 
-internal class Contact : IContact
+public class Contact : IContact
 {
 
     public Guid Id { get; set; } = Guid.NewGuid();

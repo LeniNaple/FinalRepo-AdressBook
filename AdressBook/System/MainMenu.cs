@@ -3,9 +3,9 @@ using Newtonsoft.Json;
 
 namespace AdressBook.System;
 
-internal class MainMenu
+public class MainMenu
 {
-    private List<Contact> contacts = new List<Contact>();
+    public List<Contact> contacts = new List<Contact>();
     private FileService fileService = new FileService();
     public string Path { get; set; } = null!;
     public void WelcomeMenu()
